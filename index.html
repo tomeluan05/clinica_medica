@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Carlos Ribeiro</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="./assets/images/clinica/favicon.png">
+    <!-- GOOGLE FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS do SITE -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top border">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/clinica/Carlos-Ribeiro-Vacinas-Logo.png" alt="Logo da Clínica Carlos Ribeiro">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="./assets/images/logo-mobile.png" alt="Logo da Clínica Carlos Ribeiro">
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Vacinas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Nossa Clínica</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Calendário de vacinas</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <section class="banners banner-1 d-flex flex-column justify-content-center text-center">
+            <!-- <div class="banners-titulo bg-body-secondary py-5">
+                <h2 class="fw-bold"></h2>
+                <p></p>
+            </div> -->
+        </section>
+
+        <!-- NOSSOS SERVIÇOS -->
+        <section class="py-5">
+            <div class="row justify-content-center">
+                <div class=" col-sm-10 col-md-6">
+                    <h2 class="text-center fw-bold pb-1">Aqui na Clínica Carlos Ribeiro, cuidamos verdadeiramente de você.</h2>
+                    <p class="text-center pb-1">Somos especialistas em cuidar dos Servidores Públicos, atendendo os planos ISSEC, IPM e GEAP.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 p-2 mt-3 mb-3" style="color: white; background-color: #22a6b4;">
+                    <h3 class="text-center">Como fazemos isso:</h3>
+                </div>
+            </div>
+
+            <div class="container d-flex justify-content-around flex-wrap">
+                <div class="card m-4" style="width: 20rem;">
+                    <img src="./assets/images/clinica/cardiologista.png" class="card-img-top"
+                        alt="Balcão de padaria tradicional com alimentos diversos">
+                    <div class="card-body">
+                        <h5 class="card-title py-2 fw-bold">Motivo 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas obcaecati tempora odio, et a officia iusto sunt ipsam nemo blanditiis alias fuga hic quasi illo eveniet doloremque nam nisi.</p>
+                        <a href="#" class="btn botao-padrao w-100 fw-bold" data-bs-toggle="offcanvas"
+                            data-bs-target="#canvas-1" aria-controls="canvas-1">Quero detalhes</a>
+                    </div>
+                </div>
+
+                <div class="card m-4" style="width: 20rem;">
+                    <img src="./assets/images/clinica/neorologista.png" class="card-img-top"
+                        alt="Balcão de padaria tradicional com alimentos diversos">
+                    <div class="card-body">
+                        <h5 class="card-title py-2 fw-bold">Motivo 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas obcaecati tempora odio, et a officia iusto sunt ipsam nemo blanditiis alias fuga hic quasi illo eveniet doloremque nam nisi.</p>
+                        <a href="#" class="btn botao-padrao w-100 fw-bold" data-bs-toggle="offcanvas"
+                            data-bs-target="#canvas-2" aria-controls="canvas-2">Quero detalhes</a>
+                    </div>
+                </div>
+
+                <div class="card m-4" style="width: 20rem;">
+                    <img src="./assets/images/clinica/ginecologista.png" class="card-img-top"
+                        alt="Balcão de padaria tradicional com alimentos diversos">
+                    <div class="card-body">
+                        <h5 class="card-title py-2 fw-bold">Motivo 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas obcaecati tempora odio, et a officia iusto sunt ipsam nemo blanditiis alias fuga hic quasi illo eveniet doloremque nam nisi.</p>
+                        <a href="#" class="btn botao-padrao w-100 fw-bold" data-bs-toggle="offcanvas"
+                            data-bs-target="#canvas-3" aria-controls="canvas-3">Quero detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="banners banner-2 d-flex flex-column justify-content-center text-center">
+
+            <div class="banners-titulo bg-body-secondary py-5">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <h2 class="fw-bold">Com mais de 60 anos no mercado</h2>
+                        <p class="mt-3" style="text-align: justify; line-height: 30px;">A Clínica Carlos Ribeiro tem um DNA enraizado no cuidado e na busca contínua por soluções específicas para cada paciente. Desde o início, nossa missão é proporcionar não apenas tratamentos, mas também um ambiente acolhedor e que cuida, de uma maneira que você sinta!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOSSAS ESPECIALIDADES -->
+        <section class="py-5">
+            <h2 class="fw-bold text-center pb-1">Nossas Especialidades:</h2>
+            <div class="row mx-0">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1"
+                        style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-1">
+                        <img src="./assets/images/clinica/especialidades.png" class="card-img-top rounded-circle" alt="Especialidades.">
+                        <div class="card-body">
+                            <h4 class="card-text text-center fw-bold">Clínico Geral</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2"
+                        style="width: 18rem;">
+                        <img src="./assets/images/clinica/especialidades.png" class="card-img-top rounded-circle" alt="Especialidades.">                        
+                        <div class="card-body">
+                            <h4 class="card-text fw-bold text-center">Urologista</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-3" style="width: 18rem;">
+                        <img src="./assets/images/clinica/especialidades.png" class="card-img-top rounded-circle" alt="Especialidades.">                        
+                        <div class="card-body">
+                            <h4 class="card-text text-center fw-bold text-nowrap">Ginecologista</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-4" style="width: 18rem;">
+                        <img src="./assets/images/clinica/especialidades.png" class="card-img-top rounded-circle" alt="Especialidades.">                        
+                        <div class="card-body">
+                            <h4 class="card-text text-center fw-bold">Reumatologista</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-5" style="width: 18rem;">
+                        <img src="./assets/images/clinica/especialidades.png" class="card-img-top rounded-circle" alt="Especialidades.">                        
+                        <div class="card-body">
+                            <h4 class="card-text text-center fw-bold">Pediatria</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-6" style="width: 18rem;">
+                        <img src="./assets/images/clinica/especialidades.png" class="card-img-top rounded-circle" alt="Especialidades.">                        
+                        <div class="card-body">
+                            <h4 class="card-text text-center fw-bold">Cardiologia</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-7" style="width: 18rem;">
+                        <img src="./assets/images/clinica/especialidades.png" class="card-img-top rounded-circle" alt="Especialidades">                        
+                        <div class="card-body">
+                            <h4 class="card-text text-center fw-bold">Ultrassonografia</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- BANNER 3 -->
+        <section class="banners banner-3 d-flex flex-column justify-content-center text-center">
+
+            <div class="banners-titulo bg-body-secondary py-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <h2 class="fw-bold">Conheça nossa clínica</h2>
+                        <p class="mt-3" style="text-align: justify; line-height: 30px;">A Clínica Carlos Ribeiro tem o compromisso de cuidar da proteção para todas as idades, por meio da vacinação, oferecendo menos chances de contrair qualquer tipo de infecção causadas por vírus e bactérias. A clínica de vacinação conta com uma equipe médica e técnica qualificada, a fim de promover saúde e um atendimento humanizado com excelência aos nossos clientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section class="py-4 mt-4 mb-4 container">
+            <div class="row align-items-center">
+               <div class="col-md-6 col-sm-12 justify-content-center">
+                <iframe style="max-width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.341992868436!2d-38.55842562560378!3d-3.7354407432067975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74976e2e6d6ed%3A0x355a397f8189d55d!2sR.%20Gustavo%20Sampaio%2C%201293%20-%20Parquel%C3%A2ndia%2C%20Fortaleza%20-%20CE%2C%2060455-001!5e0!3m2!1spt-BR!2sbr!4v1709267948163!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+
+               <div class="col-md-6 col-sm-12 mt-4">
+                    <h2>Clínica Carlos Ribeiro</h2>
+                    <h5>R. Gustavo Sampaio, 1273</h5>
+                    <h5 class="mb-4">Parquelândia, Fortaleza - CE, 60455-001</h5>
+
+                    <p><i class="bi bi-telephone-fill" style="font-size: 30px; margin-right: 15px;"></i>0800 777 7358</p>
+                    <p><i class="bi bi-whatsapp" style="font-size: 30px; margin-right: 15px;"></i> (85) 99961-7358</p>
+               </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPE - FOOTER -->
+    <footer class="bg__footer text-center p-4">
+        <div class="footer__images">
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+        </div>
+
+        <div class="copy">
+            2024 &copy; Tomé Luan Jorge Coelho
+        </div>
+    </footer>
+
+    <!-- Canvas 1 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Motivo 1</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Descrição 1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas obcaecati tempora odio, et a officia iusto sunt ipsam nemo blanditiis alias fuga hic quasi illo eveniet doloremque nam nisi.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Descrição 2
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas obcaecati tempora odio, et a officia iusto sunt ipsam nemo blanditiis alias fuga hic quasi illo eveniet doloremque nam nisi.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Descrição 3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas obcaecati tempora odio, et a officia iusto sunt ipsam nemo blanditiis alias fuga hic quasi illo eveniet doloremque nam nisi.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Canvas 2 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Motivo 2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#accordionEventos" aria-expanded="false" aria-controls="collapseOne">
+                            Descrição 1
+                        </button>
+                    </h2>
+                    <div id="accordionEventos" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempore, ipsa atque debitis dolor in praesentium aspernatur nemo, reiciendis natus libero. 
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#accordionCatering" aria-expanded="false" aria-controls="collapseOne">
+                            Descrição 2
+                        </button>
+                    </h2>
+                    <div id="accordionCatering" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempore, ipsa atque debitis dolor in praesentium aspernatur nemo, reiciendis natus libero.                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Canvas 3 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Motivo 3</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#accordionEventos" aria-expanded="false" aria-controls="collapseOne">
+                            Descrição 1
+                        </button>
+                    </h2>
+                    <div id="accordionEventos" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempore, ipsa atque debitis dolor in praesentium aspernatur nemo, reiciendis natus libero.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed botao-padrao" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#accordionCatering" aria-expanded="false" aria-controls="collapseOne">
+                            Descrição 2
+                        </button>
+                    </h2>
+                    <div id="accordionCatering" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempore, ipsa atque debitis dolor in praesentium aspernatur nemo, reiciendis natus libero.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MODAL 1 -->
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Clínico Geral</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-50 mb-4 d-block mx-auto rounded-circle" src="./assets/images/clinica/especialidades.png" alt="Especialidades">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2 -->
+    <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Urologista</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-50 mb-4 d-block mx-auto rounded-circle" src="./assets/images/clinica/especialidades.png" alt="Especialidades">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 3 -->
+    <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Ginecologista</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-50 mb-4 d-block mx-auto rounded-circle" src="./assets/images/clinica/especialidades.png" alt="Especialidades">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 4 -->
+    <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Reumatologista</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-50 mb-4 d-block mx-auto rounded-circle" src="./assets/images/clinica/especialidades.png" alt="Especialidades">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 5 -->
+    <div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Pediatra</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-50 mb-4 d-block mx-auto rounded-circle" src="./assets/images/clinica/especialidades.png" alt="Especialidades">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 6 -->
+    <div class="modal fade" id="modal-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cardiologista</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-50 mb-4 d-block mx-auto rounded-circle" src="./assets/images/clinica/especialidades.png" alt="Especialidades">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 7 -->
+    <div class="modal fade" id="modal-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Ultrassonografia</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-50 mb-4 d-block mx-auto rounded-circle" src="./assets/images/clinica/especialidades.png" alt="Especialidades">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab quo saepe, voluptatibus, sit qui porro eius ducimus soluta dolorum laudantium aliquid! Unde aliquid qui odit debitis deserunt veritatis praesentium.</p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
