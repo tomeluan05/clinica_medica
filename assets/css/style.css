@@ -38,11 +38,15 @@
   }
 
   .banner-1{
+    margin-top: 13vh;
     background: url('../images/clinica/banner_main.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .banner-2{
-    background-image: url('../images/clinica/grupo-41-min.png');
+    background-image: url('../images/clinica/preparing-vaccine-min.png');
   }
 
   .banner-3{
@@ -71,6 +75,10 @@
     background-color: var(--marrom-claro);
   }
 
+  .card{
+    background-color: transparent;
+  }
+
   .footer__images i{
     font-size: 26px;
     margin: 0 15px;
@@ -94,14 +102,11 @@
 
   @media screen and (max-width: 768px){
 
-    body{
-      background-color: rgb(204, 233, 236);
-    }
     .banners{
       height: 70vh;
     }
 
-    .banner-1{
+    .banner-1, .banner-2, .banner-3{
       margin-top: 8vh;
       width: 100%;
       height: 50vh;
