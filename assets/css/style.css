@@ -46,11 +46,17 @@
   }
 
   .banner-2{
-    background-image: url('../images/clinica/preparing-vaccine-min.png');
+    background: url('../images/clinica/preparing-vaccine-min.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .banner-3{
-    background-image: url('../images/clinica/preparing-vaccine-min.png');
+    background: url('../images/clinica/preparing-vaccine-min.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .banners-titulo{
@@ -106,7 +112,7 @@
       height: 70vh;
     }
 
-    .banner-1{
+    .banner-1, .banner-2, .banner-3{
       margin-top: 8vh;
       width: 100%;
       height: 50vh;
@@ -118,6 +124,12 @@
     .banners-titulo{
       /* deixa o background opaco */
       --bs-bg-opacity: .2
+    }
+
+    .como__fazemos{
+      width: 50%;
+      color: white; 
+      background-color: #22a6b4;
     }
   
   }
