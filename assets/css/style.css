@@ -43,7 +43,6 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
   }
 
   .banner-2{
@@ -51,7 +50,6 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
   }
 
   .banner-3{
@@ -59,7 +57,6 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
   }
 
   .banners-titulo{
@@ -136,4 +133,10 @@
       background-color: #22a6b4;
     }
   
+  }
+
+  @media screen and (min-width: 1200px){
+    .banner-1, .banner-2, .banner-3{
+      background-attachment: fixed;
+    }
   }
