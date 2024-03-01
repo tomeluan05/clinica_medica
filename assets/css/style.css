@@ -96,5 +96,19 @@
     .banners{
       height: 70vh;
     }
-  }
 
+    .banner-1{
+      margin-top: 8vh;
+      width: 100%;
+      height: 50vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .banners-titulo{
+      /* deixa o background opaco */
+      --bs-bg-opacity: .2
+    }
+  
+  }
