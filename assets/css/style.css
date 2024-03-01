@@ -93,6 +93,10 @@
   }
 
   @media screen and (max-width: 768px){
+
+    body{
+      background-color: rgb(204, 233, 236);
+    }
     .banners{
       height: 70vh;
     }
