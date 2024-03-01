@@ -135,7 +135,7 @@
   
   }
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1024px){
     .banner-1, .banner-2, .banner-3{
       background-attachment: fixed;
     }
